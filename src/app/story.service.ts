@@ -14,11 +14,10 @@ export class StoryService {
   }
 
   getStoryById(storyId: number){
-  for (var i = 0; i <= STORIES.length - 1; i++) {
-    if (STORIES[i].id === storyId) {
-      return STORIES[i];
+    for (var i = 0; i <= STORIES.length - 1; i++) {
+      if (STORIES[i].id === storyId) {
+        return STORIES[i];
+      }
     }
   }
-}
-
 }

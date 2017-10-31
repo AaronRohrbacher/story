@@ -1,1 +1,7 @@
-<p>{{storyToDisplay.title}}</p>
+<h3>{{this.storyToDisplay.title}}</h3>
+<p>{{this.storyToDisplay.story}}</p>
+
+<h1>YOU HAVE {{this.startingPoints}} CRACKROCKS</h1>
+
+<button (click)="nextStory('positive')">Option 1</button>
+<button (click)="nextStory('negative')">Option 2</button>
